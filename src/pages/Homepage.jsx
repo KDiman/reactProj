@@ -8,7 +8,7 @@ import SortItems from "../components/sortItems.jsx";
 import Footer from "../components/footer.jsx";
 import { Link } from "react-router-dom";
 import queryString from "query-string";
-
+import Sadiebanner from "../assets/Sadiebanner.png"
 
 const cartReducer = (state, action) => {
   switch (action.type) {
@@ -98,7 +98,7 @@ const HomePage = () => {
             <span className="cartBadge">{totalCartItems}</span>
           )}
         </div>
-        <div className="homePageBanner"> <img src={requestAnimationFrame("public/Sadiebanner.png")} alt="Banner" /></div>
+        <div> <img className="homePageBanner" src={Sadiebanner}/></div>
       </div>
       <div>
         <SortItems
