@@ -97,7 +97,7 @@ const HomePage = () => {
             <span className="cartBadge">{totalCartItems}</span>
           )}
         </div>
-        <div className="homePageBanner"></div>
+        <div className="homePageBanner"> <img src="public/Sadiebanner.png" alt="Banner" /></div>
       </div>
       <div>
         <SortItems

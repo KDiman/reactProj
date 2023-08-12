@@ -51,7 +51,7 @@ div {
   background: #000;
   padding: 1rem;
   overflow: hidden;
-  background: url(public/Sadiebanner.png) no-repeat center center;
+  background: no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -573,7 +573,7 @@ a {
   align-items: center;
   text-align: left;
   flex-direction: column;
-  
+
 }
 
 .checkout-header {
