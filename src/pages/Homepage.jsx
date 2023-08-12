@@ -1,5 +1,5 @@
 import React, { useContext, useState, useReducer, useEffect } from "react";
-import { ItemsContext } from "../components/itemProvider.jsx";
+import { ItemsContext } from "../components/itemprovider.jsx";
 import { BiSolidShoppingBag } from "react-icons/bi";
 import Cart from "../components/cart.jsx";
 import Items from "../components/items.jsx";
