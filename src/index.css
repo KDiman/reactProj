@@ -51,7 +51,7 @@ div {
   background: #000;
   padding: 1rem;
   overflow: hidden;
-  background: no-repeat center center;
+  background: url("public/Sadiebanner.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
