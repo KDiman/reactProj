@@ -1,5 +1,5 @@
 import React, { useContext, useState, useReducer, useEffect } from "react";
-import { ItemsContext } from "../components/itemprovider.jsx";
+import { ItemsContext } from "../components/itemProvider.jsx";
 import { BiSolidShoppingBag } from "react-icons/bi";
 import Cart from "../components/cart.jsx";
 import Items from "../components/items.jsx";
@@ -8,8 +8,7 @@ import SortItems from "../components/sortItems.jsx";
 import Footer from "../components/footer.jsx";
 import { Link } from "react-router-dom";
 import queryString from "query-string";
-import Sadiebanner from "../assets/Sadiebanner.png"
-
+import Sadiebanner from "../assets/Sadiebanner.png";
 const cartReducer = (state, action) => {
   switch (action.type) {
     case "ADD_ITEM":
@@ -98,7 +97,9 @@ const HomePage = () => {
             <span className="cartBadge">{totalCartItems}</span>
           )}
         </div>
-        <div> <img className="homePageBanner" src={Sadiebanner}/></div>
+        <div>
+          <img className="homePageBanner" src={Sadiebanner} />
+        </div>
       </div>
       <div>
         <SortItems
