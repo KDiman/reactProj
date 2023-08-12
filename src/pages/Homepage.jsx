@@ -9,6 +9,7 @@ import Footer from "../components/footer.jsx";
 import { Link } from "react-router-dom";
 import queryString from "query-string";
 
+
 const cartReducer = (state, action) => {
   switch (action.type) {
     case "ADD_ITEM":
@@ -97,7 +98,7 @@ const HomePage = () => {
             <span className="cartBadge">{totalCartItems}</span>
           )}
         </div>
-        <div className="homePageBanner"> <img src="public/Sadiebanner.png" alt="Banner" /></div>
+        <div className="homePageBanner"> <img src={requestAnimationFrame("public/Sadiebanner.png")} alt="Banner" /></div>
       </div>
       <div>
         <SortItems
